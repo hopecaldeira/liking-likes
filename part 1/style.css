@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.box1 {
+    border: solid 2px #000;
+    margin: 20px;
+}
+
+#row1 {
+    display: flex;
+    margin: 10px;
+}
+
+#row1 .user {
+    width: 200px;
+}
+
+#row1 #likes {
+    width: 100px;
+}
+
+#row1 p {
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+#row1 button {
+    width: 60px;
+    background-color: rgb(250, 204, 0);
+    border: solid 2px #000;
+}
+
+.row2 {
+    border: solid 2 #000;
+    margin: 10px;
+    font-size: 16px;
+}

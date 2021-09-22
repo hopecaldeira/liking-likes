@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    margin: auto;
+    margin: 20px;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: black;
+    width: 800px;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.titlebar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    display: flex;
+}
+
+.titlebar h1 {
+    text-align: center;
+    color: black;
+    width: 800px;
+}
+
+
+.column1 .box1 {
+    border: solid 2px #000;
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 img {
+    margin: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.box1 a {
+    font-size: 20px;
+    width: 200px;   
+    margin: 20px;
+}
+
+.box1 .username {
+    font-size: 20px;
+    width: 200px;
+    margin: 20px;
+}
+
+
+
+
+.box2 .row1 {
+    border: solid 2px #000;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.neil {
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neil p {
+    font-size: 20px;
+}
+
+.neil .likes1 {
+    font-size: 15px;
+}
+
+.neil button {
+    background-color: rgb(255, 217, 0);
+    width: 60px;
+    height: 30px;
+}
+
+.updates {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 400px;
+}
+
+.updates span {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.box2 .row2 {
+    border: solid 2px #000;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.nichole {
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nichole p {
+    font-size: 20px;
+}
+
+.nichole .likes2 {
+    font-size: 15px;
+}
+
+.nichole button {
+    background-color: rgb(255, 217, 0);
+    width: 60px;
+    height: 30px;
+}
+
+.box2 .row3 {
+    border: solid 2px #000;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.jim {
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jim p {
+    font-size: 20px;
+}
+
+.jim .likes3 {
+    font-size: 15px;
+}
+
+.jim button {
+    background-color: rgb(255, 217, 0);
+    width: 60px;
+    height: 30px;
+}
